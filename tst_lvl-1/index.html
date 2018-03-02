@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HyryloAnn</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="main">
+		<!--	block for text-->
+		<header class="span"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo interdum fermentum. Donec quis nunc eu lacus tincidunt consectetur a eget libero. Cras arcu diam, interdum sed orci sit amet, volutpat lacinia purus. Cras egestas dignissim nisl vitae rutrum. Sed felis libero, maximus id dolor vel, consectetur vestibulum nisl. Duis sit amet posuere orci, pulvinar tincidunt arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis imperdiet dictum varius. Ut risus nibh, bibendum ut scelerisque et, fermentum sit amet enim.
+		</header>
+		<article>
+			<!--		buttons Edit & Style-->
+			<form action="#" class="center">
+				<input type="button" value="Edit" id="Edit" class="btn">
+				<input type="button" value="Style" id="Style" class="btn"> 
+            </form>
+		</article>
+		<footer>
+			<!--	Textarea Div   -->
+			<div class="textareaDiv">
+				<form action="#">
+					<textarea name="name" id="name" cols="180" rows="35" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quam quasi, odio accusamus nisi eos perferendis a debitis cum! Dolorem aliquid in iusto sint ad architecto nemo possimus maiores quaerat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quam quasi, odio accusamus nisi eos perferendis a debitis cum! Dolorem aliquid in iusto sint ad architecto nemo possimus maiores quaerat." class="textarea">
+					</textarea>
+				</form>
+				<form action="#">
+					<input type="button" value="Save" id="Save" class="btn">
+					<input type="button" value="Add" id="Add" class="btn">
+				</form>
+			</div>
+			<!--	TextStyle Div   -->
+			<div class="textStyle">
+				<div class="size">
+					<!--	Radio Btn Font Size  -->
+					<form action="#" class="center">
+						<label for="#">Text size:</label>
+						<input type="radio" id="size12" class="txtSize" value="12pt">
+						<label for="size12">12pt</label>
+						<input type="radio" id="size14" class="txtSize" value="14pt">
+						<label for="size14">14pt</label>
+						<input type="radio" id="size16" class="txtSize" value="16pt">
+						<label for="size16">16pt</label>
+						<input type="radio" id="size18" class="txtSize" value="18pt">
+						<label for="size18">18pt</label>
+						<input type="radio" id="size20" class="txtSize" value="20pt">
+						<label for="size20">20pt</label>
+					</form>
+					<!--	Font Family Style   -->
+					<form action="#" class="center">
+						<label for="fontFamily">Font Family:</label>
+						<select name="fontFamily" id="fontFamily">
+							<option value="Tahoma" class="typeTxts">Tahoma</option>
+							<option value="Verdana" class="typeTxts">Verdana</option>
+							<option value="TimesNewRoman" class="typeTxts">Times New Roman</option>
+							<option value="Arial" class="typeTxts">Arial</option>
+						</select>
+					</form>
+					<!--	Color Style   -->
+					<form action="#" class="center">
+						<input type="button" value="Color" id="Color" class="btnColor">
+						<input type="button" value="BgColor" id="BgColor" class="btnColor"> 
+				    </form>
+					<table id="colorTb">
+						<tr>
+							<td style="background:red"></td>
+							<td style="background:green"></td>
+							<td style="background:brown"></td>
+						</tr>
+						<tr>
+							<td style="background:cyan"></td>
+							<td style="background:purple"></td>
+							<td style="background:yellow"></td>
+						</tr>
+						<tr>
+							<td style="background:black"></td>
+							<td style="background:magenta"></td>
+							<td style="background:pink"></td>
+						</tr>
+					</table>
+					<!--	Font Style Checed   -->
+					<form action="#" class="center">
+						<input type="checkbox" id="boldTxt">
+						<label for="boldTxt">Bold text</label>
+						<input type="checkbox" id="italicTxt">
+						<label for="italicTxt">Italic text</label>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!--	Add block-->
+	<div class="addCreate">
+		<header>
+			<h1>Choose what to add:</h1>
+			<form action="#" class="center">
+				<input type="radio" id="typeTable" checked>
+				<label for="typeTable">Table</label>
+				<input type="radio" id="typeList">
+				<label for="typeList">List</label>
+			</form>
+			<!--	Table Checked        -->
+			<div class="tableCheck">
+				<form action="#" class="center">
+					<label for="cOfRow">Input count of row:</label>
+					<input type="text" id="cOfRow" size="3" class="underline">
+					<br>
+					<label for="cOfCell">Input count of cell:</label>
+					<input type="text" id="cOfCell" size="3" class="underline"> </form>
+				<h3 class="center">Table style:</h3>
+				<form action="#" class="center">
+					<label for="wOfCell">Input width of cell:</label>
+					<input type="text" id="wOfCell" size="3" class="underline">
+					<br>
+					<label for="hOfCell">Input height of cell:</label>
+					<input type="text" id="hOfCell" size="3" class="underline"> </form>
+				<form action="#" class="center">
+					<label for="BrdWidth">Border width:</label>
+					<input type="text" id="BrdWidth" size="2" class="underline">
+					<label for="BrdType">Border type:</label>
+					<select name="brdType" id="brdType">
+						<option value="solid">solid</option>
+						<option value="double">double</option>
+						<option value="dashed">dashed</option>
+						<option value="dotted">dotted</option>
+					</select>
+					<label for="BrdColor">Border color:</label>
+					<select name="brdColor" id="brdColor">
+						<option value="black">black</option>
+						<option value="red">red</option>
+						<option value="blue">blue</option>
+					</select>
+				</form>
+				<form action="#" class="center">
+					<input type="button" value="Create" id="CreateTb" class="btn"> 
+				</form>
+			</div>
+			<!--	List Checked        -->
+			<div class="listCheck">
+				<form action="#" class="center">
+					<label for="cOfItem">Input count of items:</label>
+					<input type="text" size="3" id="cOfItem" class="underline">
+					<label for="typeOfM">Type of mark:</label>
+					<select name="typeOfM" id="typeOfM">
+						<option value="circle">circle</option>
+						<option value="disc">disc</option>
+						<option value="square">square</option>
+					</select>
+				</form>
+				<form action="#" class="center">
+					<input type="button" value="Create" id="CreateList" class="btn">
+				</form>
+			</div>
+		</header>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
